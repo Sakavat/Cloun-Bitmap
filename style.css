@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,500&display=swap');
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    gap: 500px;
+    font-size: 12px;
+    align-items: center;
+}
+.collapse {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 50px;
+}
+
+.nav-items {
+    display: flex;
+    color: white;
+    gap: 15px;
+}
+
+.sect1 {
+    background-image: url(https://www.touropia.com/gfx/b/2009/05/gocta_cataracts.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic1 {
+    height: 22px;
+    width: 90px;
+}
+.inside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    height: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 10px;
+    width: 100%;
+    height: 160px;
+    
+}
+#text__main {
+    font-size: 25px;
+}
+#problem {
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    width: 70%;
+}
+.text a {
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    padding: 5px 13px;   
+}
+
+.sect2 {
+    height: 2000px;
+    width: 100%;
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.first {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.second .pict img {
+    width: 280px;
+    height: 346px;
+}
+
+.first a {
+    color: black;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.first a:hover {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 3px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic__second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 50px;
+    
+    align-items: center;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.link a {
+    color: black;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: yellowgreen;
+    border-radius: 1px;
+}
+.link a:hover {
+    background-color: black;
+    color: yellowgreen;
+}
+.sect3 {
+    width: 100%;
+    height: 1000px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    width: 90%;
+    margin: 0px 100px;
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+#p1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.comment {
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    border-radius: 1px;
+    padding: 35px;
+}
+.comment img {
+    width: 80px;
+    height: 80px;
+}
+.general__text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#p3 {
+    font-size: small;
+    opacity: 0.7;
+}
+
+#p4 {
+    font-size: 18px;
+    font-weight: 900;
+}
